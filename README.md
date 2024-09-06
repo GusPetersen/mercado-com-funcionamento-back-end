@@ -19,3 +19,12 @@ HTML/CSS: Para a construção do layout da loja e do dashboard.
 Pré-requisitos
 Servidor web com suporte a PHP (como Apache ou Nginx)
 MySQL instalado e rodando
+
+![imagem_2024-09-05_160445449](https://github.com/user-attachments/assets/d5a5d70f-c003-4095-a953-57028eed5717)
+
+![imagem_2024-09-05_160507739](https://github.com/user-attachments/assets/92bc3c88-515e-4a39-89db-2acd3676ed85)
+
+![imagem_2024-09-05_160301131](https://github.com/user-attachments/assets/04bd4a91-9a15-46eb-9874-608bb5c08776)
+
+![imagem_2024-09-05_160407986](https://github.com/user-attachments/assets/2f75d393-8c14-4a7a-aa3a-2fe70e8518ec)
+
