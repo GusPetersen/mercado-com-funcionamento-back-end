@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFF;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+}
+
+
+.logo img {
+    width: 205px;
+    
+}
+
+#menu-iten-img img{
+    width: 40px;
+}
+
+.menu {
+    width: 100%;
+    background-color: #EAF1BD;
+}
+
+.menu li{
+    display: inline-block;
+    font-size: 25px;
+    padding: 15px;
+    margin: 0 auto 0  55px;
+}
+
+.menu li a:hover {
+    font-size: 26px;
+    transition: .5s;
+    color: #4e6d00;
+}
+
+.menu li img {
+    width: 50px;
+}
+
+.menu-itens {
+    margin: 0 0 100px 10px;
+    display: inline-block;
+    color:#667B30;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Fim Header */
+
+
+#fundo-home {
+    width: 99%;
+    height: 50vh;
+}
+
+#container-home{
+    margin: 75px 0 0 10px; 
+}
+
+main {
+    width: 90%;
+    margin: auto ;
+}
+
+#icon-bg {
+    background-image:url(fundo.png);
+    background-size: cover;
+    margin: 75px 0 0 10px; 
+
+}
+
+#produtos {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+#produtos #encomendas img{
+    width: 550px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    width: 600px;
+}
+
+#padaria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 60px ;
+    list-style: none;
+}
+
+#padaria img {
+    width: 350px;
+    height: 350px;
+}
+
+
+#padaria p {
+    background-color: #9CB059;
+    margin-top: -5px;
+    width: 100%;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+#padaria a {
+    text-decoration: none;
+    color: #EAF1BD;
+}
+
+#padaria a:hover {
+    color: #505D1B;
+    transition: .5s;
+}
+
+
+/* Footer */
+
+footer{
+        
+    background:#667B30 ;
+    padding: 40px 0;
+    text-decoration: none;
+    color: #EAF1BD; 
+    text-align: center;   
+}
+.footerCP ul{
+    display: inline-block;
+    list-style: none;
+    
+}
+
+.footerC1{
+    margin-right: 15%;
+    margin-left: 5%;
+    vertical-align: top;
+}
+.footerC2{
+text-align: center;
+}
+.footerC3{
+    margin-right: 1%;
+    margin-left: 5%;
+    vertical-align: top;
+}
+
+.logoR{
+    height: 90px;
+    width: 130px;
+    margin-top: 3.4em;
+    margin-bottom: 4em;
+}
+.linkC{
+    text-decoration: none;
+    color: #EAF1BD;
+}
+#siteC{
+    color: #EAF1BD;
+}
+.Ftitle{
+    font-size: 19px;
+    padding: 1em 0 1em 0;
+    font-weight: bold;
+}
+.Flist{
+    margin-top: 3px;
+}
+.Fcontat{
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+.FSimg{
+    height: 38px;
+    width: 55px;
+    padding: 0 1em 0 0 ;
+}
+.Fimgs{
+    display: inline-block;
+    
+}
+
+.C3{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5%;
+    margin-left: 25%;
+}
+
+
+
+
+/* padaria */
+
+.caixacentral{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+
+}
+
+.produtos-pad{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos-pad img {
+    width: 125px;
+    height: 125px;
+}
+
+.produto-pad-preco{
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 15px;
+    font-style: italic;
+}
+
+.produtos-pad li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+    margin-bottom: 15px;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.produtos-pad li:hover{
+	border-color: #4e6d00;
+}
+
+.produtos-pad li:hover h2{
+	font-size: 34px;
+    transition: .9s;
+}
+
+.produtos-pad h2{
+	font-size: 30px;
+	font-weight: bold;
+
+}
+
+.produto-pad-descricao{
+	font-size: 30px;
+}
+
+
+.produtos-pad button {
+    width: 100px;
+    height: 30px;
+	border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #9CB059;
+    text-transform: uppercase;
+    color: #3c4d05;
+}
+
+.produtos-pad button:hover {
+    background-color: #c5db92;
+}
+
+/* Sobre */
+
+
+.InfoDivided{
+    padding: 1em;
+    margin-left: 10%;
+    padding: 3em;
+}
+
+.InfoDivided ul{
+    display: inline-block;
+}
+
+.InfohalfT{
+    width: 65%; 
+}
+.infohalfsoft{
+    width: 45%;
+}
+.Infohalfimg{
+    padding: 20px;
+    
+}
+
+.InfoTit{
+    text-align: center;
+    font-size: 24px;
+    padding: 1em;
+    
+}
+
+.InfoTex{
+    font-size: 20px;
+    padding: 4em;
+}
+
+.imgIs{
+    width: 290px;
+    height: 250px;
+}
+
