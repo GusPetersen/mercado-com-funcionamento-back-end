@@ -1,7 +1,7 @@
 # Lojinha - Sistema de Gerenciamento de Loja
 Este é um projeto simples de uma loja virtual, desenvolvido em PHP, com integração a um banco de dados MySQL. O sistema é composto por duas partes: a página principal da loja, onde os produtos são exibidos para os clientes, e um painel de administração (dashboard) que permite ao lojista gerenciar os produtos no banco de dados.
 
-Funcionalidades
+Funcionalidades:
 1. Página da Loja (Frontend)
 Exibe os produtos cadastrados no banco de dados.
 Interface amigável e responsiva.
@@ -15,11 +15,12 @@ PHP: Linguagem de programação principal para o backend.
 MySQL: Banco de dados para armazenar e gerenciar os produtos.
 HTML/CSS: Para a construção do layout da loja e do dashboard.
 
-# Instalação
+# Instalação:
 Pré-requisitos
 Servidor web com suporte a PHP (como Apache ou Nginx)
 MySQL instalado e rodando
 
+# Imagens:
 ![imagem_2024-09-05_160445449](https://github.com/user-attachments/assets/d5a5d70f-c003-4095-a953-57028eed5717)
 
 ![imagem_2024-09-05_160507739](https://github.com/user-attachments/assets/92bc3c88-515e-4a39-89db-2acd3676ed85)
